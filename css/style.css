@@ -1,0 +1,114 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+body{
+	margin-left: 200px;
+	margin-right: 200px;
+	font-family: 'Julius Sans One', sans-serif;
+}
+
+h1{
+	color: black;
+	font-size: 60pt;
+	text-align: center;
+	margin-top: 20px;
+}
+
+h2{
+	color: black;
+	font-size: 40pt;
+	text-align: center;
+}
+
+h3{
+	color: black;
+	font-size: 18pt;
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+/* Links: */
+h3 a{
+	color: black;
+	text-decoration: none;
+}
+
+h3 a:hover{
+	text-decoration: underline;
+}
+
+/* Listing: */
+#listings{
+	display: none;
+	padding: 10px;
+}
+
+#listings a{
+	font-size: 20pt;
+	padding: 5px;
+	text-decoration: none;
+	color: black;
+}
+
+#listings a:hover{
+	text-decoration: underline;
+}
+
+li{
+	margin: 10px;
+}
+
+/* Lights on button: */
+#on{
+	display: none;
+	text-align: center;
+	font-size: 10pt;
+	color: white;
+	margin-top: 50px;
+}
+
+#on a{
+	color: white;
+	text-decoration: none;
+}
+
+/* Table: */
+table{
+	width: 100%;
+	text-align: center;
+	margin-top: 40px;
+}
+
+.youtube{
+	
+}
+
+.button{
+	height: 500px;
+	width: 100px;
+	background: #E8E8E8;
+	font-size: 30pt;
+}
+
+.button a{
+	color: black;
+	text-decoration: none;
+}
+
+
+.button:hover{
+	background: #D8D8D8;
+}
+
+/* Footer: */
+#footer{
+	text-align: center;
+	margin-top: 40px;
+}
+
+#footer a{
+	text-decoration: underline;
+	color: black;
+}
