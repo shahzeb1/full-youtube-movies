@@ -4,8 +4,8 @@
 }
 
 body{
-	margin-left: 200px;
-	margin-right: 200px;
+	margin-left: 100px;
+	margin-right: 100px;
 	font-family: 'Julius Sans One', sans-serif;
 }
 
@@ -74,15 +74,49 @@ li{
 	text-decoration: none;
 }
 
+/* Poster: */
+#listingTable{
+	width: 100%;
+}
+
+#listingTable td{
+	padding: 10px;
+}
+
+#posterimg{
+	width: 300px;
+	height: 450px;
+	background-repeat: none;
+	background-size: 100%;
+	box-shadow: 0px 0px 20px black;
+	cursor:pointer;
+}
+
+#posterContent{
+	background: yellow;
+	line-height: 40px;
+	padding-top: 5px;
+	display: none;
+}
+
+
+.titie{
+	font-size: 20pt;
+}
+
+.director{
+	font-size: 10pt;
+}
+
+.rating{
+	font-size: 30pt;
+}
+
 /* Table: */
 table{
 	width: 100%;
 	text-align: center;
 	margin-top: 40px;
-}
-
-.youtube{
-	
 }
 
 .button{

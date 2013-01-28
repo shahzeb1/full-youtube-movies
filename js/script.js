@@ -1,16 +1,9 @@
-// Show/hide the #listing div
-function listings(){
-	$('#listings').toggle('slow');
-}
-
 // Turns off the lights, makes video iframe bigger
 function lights(){
 	$('#header').hide();
 	$('#footer').hide();
 	$('body').css('background', 'black');
 	$('.button').css('background', 'black');
-	$('iframe').css('width', '1280');
-	$('iframe').css('height', '720');
 	$('iframe').css('margin-bottom', '50px');
 	$('#on').show();
 }
@@ -21,8 +14,23 @@ function on(){
 	$('#footer').show();
 	$('body').css('background', 'white');
 	$('.button').css('background', 'E8E8E8');
-	$('iframe').css('width', '853');
-	$('iframe').css('height', '480');
 	$('iframe').css('margin-bottom', '0px');
 	$('#on').hide();
+}
+
+// Shows the IMDB div
+function imdbShow(x){
+	var id = x;
+	$('.pcon'+id).fadeIn();
+}
+
+// Hides the IMDB div
+function imdbHide(x){
+	var id = x;
+	$('.pcon'+id).fadeOut();
+}
+
+// Takes you to the watch URL
+function watch(x){
+	window.location = "watch.php?id="+x;
 }
