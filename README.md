@@ -23,5 +23,5 @@ It's dead simple, and easy to use. Enjoy :)
 
 ### Contributors to-do list:
 
-- IMDB integration
+- <s> IMDB integration </s>
 - A sexier showing list
