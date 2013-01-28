@@ -13,7 +13,7 @@ function get_data($url) {
   return $data;
 }
 //Get data from reddit json
-$raw = get_data('http://www.reddit.com/r/fullmoviesonyoutube/top/.json?sort=top&t=all');
+$raw = get_data('http://www.reddit.com/r/fullmoviesonyoutube/.json');
 $json = json_decode($raw, true);
 $x = 0;
 
