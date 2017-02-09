@@ -1,6 +1,6 @@
 # Full Movies from YouTube.
 
-## This was a service which allowed users to watch full movies online (like Netflix). It's powered by scraping the [/r/fullmoviesonyoutube](https://www.reddit.com/r/fullmoviesonyoutube/) subreddit, and then presents the movies with a movie poster and IMDB rating.
+### This was a service which allowed users to watch full movies online (like Netflix). It's powered by scraping the [/r/fullmoviesonyoutube](https://www.reddit.com/r/fullmoviesonyoutube/) subreddit, and then presents the movies with a movie poster and IMDB rating.
 
 ### Dependancies:
 - PHP Version 5.2.11 or higher. 
